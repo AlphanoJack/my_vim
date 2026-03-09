@@ -13,6 +13,7 @@ return {
         "html", "css", 
         "javascript", "typescript", 
         "tsx", "json",
+        "rust",
       },
       highlight = {
         enable = true,
@@ -90,7 +91,7 @@ return {
     end,
   },
 
-  -- rustaceanvim
+  -- rustaceanvim 
   {
     'mrcjkb/rustaceanvim',
     version = '^6', -- Recommended
@@ -110,6 +111,7 @@ return {
       }
     end
   },
+
 
   {
     'rust-lang/rust.vim',
